@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<style>
+body{
+    text-align: center;
+    background-color: #FAF9F6;
+}
+.resize {
+    width: 400px;
+    height: auto;
+}
+.resize2 {
+    width: 350px;
+    height: auto;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33%;
+  padding: 1px;
+}
+.button {
+    background-color: #B0B0B0;
+    color: white;
+    font-size:20px;
+    padding:20px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top:20px;
+}
+.button:hover {
+    background-color: #989898;
+    color: white;
+}
+</style>
+
+<html>
+    <head>
+        <title>Fluffy Cows</title>
+    </head>
+    <body>
+        <h1>Fluffy Cows</h1>
+        
+        <div class="row">
+            <div class="column">
+                <img class="resize" id="cow1" alt="cow1" src="fluffycow1.jpg">
+                <img class="resize" id="cow4" alt="cow4" src="fluffycow4.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="resize" id="cow2" alt="cow2" src="fluffycow2.jpg">
+                <img class="resize2" id="cow3" alt="cow3" src="fluffycow3.jpg">
+            </div>
+        </div>
+        <p></p>
+        <a href="index.html" class="button mt-5">homepage</a>
+    </body>
+</html>

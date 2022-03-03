@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<style>
+body{
+    text-align: center;
+    background-color: #FAF9F6;
+    font-size:22px;
+}
+.container {
+    max-width: 60%;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.button {
+    background-color: #B0B0B0;
+    color: white;
+    font-size:20px;
+    padding:20px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top:20px;
+}
+.button:hover {
+    background-color: #989898;
+    color: white;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+
+<html>
+    <head>
+        <title>CUTE MIKU.</title>
+    </head>
+    <body>
+        <div class="container mb-5">
+          <img id="Miku" alt="Miku" src="miku-hatsune-miku.gif">
+        </div>
+        <p></p>
+        <a href="index.html" class="button mt-5">homepage</a>
+    </body>
+</html>
